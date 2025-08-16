@@ -31,6 +31,6 @@ const formEl = document
     }
 
     const rootEl = document.getElementById("root");
-    rootEl.innerHTML = `<b>Your BMI: </b>${str}<br><p class="text-success"><u>${value1}</u></p><p class="position-relative" style="top:-1rem; color:yellow;"><u>${value2}</u></p><p class="position-relative" style="color:Orange; top:-1.25rem;"><u>${value3}</u></p> <p class="text-danger position-relative" style="top:-1.5rem;"><u>${value4}</u></p>`;
+    rootEl.innerHTML = `<b>Your BMI: </b>${str}<br><p class="text-success"><u>${value1}</u></p><p class="position-relative" style="top:-1rem; color:yellow;"><u>${value2}</u></p><p class="position-relative" style="color:Orange; top:-1.25rem;"><u>${value3}</u></p> <p class="text-danger position-relative" style="top:-1.1rem;"><u>${value4}</u></p>`;
     e.target.reset();
   });
